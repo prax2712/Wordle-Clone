@@ -39,7 +39,6 @@ function Board() {
                 remainingLetters[i] = null;
             }
         }
-        //for grey and yellow
         for (let i = 0; i < 6; i++) {
             if (currentGuess[i] !== currentWord[i]) {
                 if (remainingLetters.includes(currentGuess[i])) {
